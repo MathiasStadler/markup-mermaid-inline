@@ -6,13 +6,14 @@
 - convert inline mermaid block in markdown to images
 - add link to the new generated images
 
-- pro
--- edit mermaid direct in markdown file
--- publish the file direct on git*
+### Pro
 
-- contra
--- one step more in your pipeline
+- edit mermaid direct in markdown file
+- publish the file direct on git*
 
+### Contra
+
+- one step more in your pipeline
 
 ```bash
 # install yarn

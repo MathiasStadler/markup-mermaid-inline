@@ -1,10 +1,55 @@
 # markup-mermaid-inline
 
+## TL;DR
+
+- convert inline mermaid block in markdown file to png and and add link to the new generated images
+
+```bash
+yarn install
+yarn add mermaid.cli
+./inline_mermaid.sh -f --input README.md
+
+# read messages for find output :)
+
+```
+
+## run test
+
+- install bats
+
+```bash
+git clone https://github.com/bats-core/bats-core.git
+cd bats-core
+./install.sh /usr/local
+
+# run test
+bats test/02_markdown_mermaid_inline.bats
+```
+
+## run coverage
+
+```bash
+# install bashcov
+gem install bashcov
+
+# set alias for bashcov
+alias bashcov="~/.gem/ruby/2.6.0/bin/bashcov"
+
+# run test under coverage
+bashcov --skip-uncovered test_bashcov.sh
+
+
+
+```
+
+
 ## sources
 
 ```txt sources
 # from here
 https://github.com/mermaidjs/mermaid.cli
+https://github.com/bats-core/bats-core
+
 ```
 
 ## install yarn

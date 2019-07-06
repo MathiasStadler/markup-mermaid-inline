@@ -15,6 +15,8 @@
 
 - one step more in your pipeline
 
+## RUN
+
 ```bash
 # install yarn
 sudo pacman -Syy yarn
@@ -28,6 +30,12 @@ yarn add mermaid.cli
 
 # read messages for find output :)
 ```
+
+## mermaid block
+
+
+
+
 
 ## run test
 
@@ -94,9 +102,11 @@ alias mermaid="$PWD/node_modules/.bin/mmdc"
 mermaid -h
 ```
 
-## mermaid test
+## markdown mermaid block
 
-```mermaid test_flowchart.mmd
+![Alt test_flowchart.mmd](./doc/images/mermaid-block.png)
+
+```mermaid flowchart.mmd
 graph TD
 A[Christmas] -->|Get money| B(Go shopping)
 B --> C{Let me think}

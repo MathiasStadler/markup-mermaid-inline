@@ -102,8 +102,6 @@ mermaid -h
 
 ## markdown mermaid block
 
-![Alt test_flowchart.mmd](./doc/images/mermaid-block.png)
-
 ```mermaid flowchart.mmd
 graph TD
 A[Christmas] -->|Get money| B(Go shopping)

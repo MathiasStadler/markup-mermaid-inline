@@ -33,9 +33,7 @@ yarn add mermaid.cli
 
 ## mermaid block
 
-
-
-
+![Alt mermaid_block.png](./doc/images/mermaid-block.png)
 
 ## run test
 

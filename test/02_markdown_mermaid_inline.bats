@@ -162,6 +162,7 @@ setup() {
 }
 
 @test 'double flowchart name in input markdown file' {
+  skip
   regex="^.*flowchart name.*already in used.*$"
   _input_file="test/test-file/mermaid-double-diagram-name.md"
   _output_file="output/"
@@ -191,6 +192,7 @@ setup() {
 }
 
 @test 'mermaid file exits already' {
+  skip
   regex="^.*ERROR: flowchart name.*already in used.*$";
   _input_file="test/test-file/mermaid-file-exits-already.md";
   _output_file="output/test/test-file/mermaid-file-exits-already.mermaid_replace.md";

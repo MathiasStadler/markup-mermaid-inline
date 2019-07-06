@@ -2,7 +2,17 @@
 
 ## TL;DR
 
-- convert inline mermaid block in markdown file to png and and add link to the new generated images
+- create a new markdown file
+- convert inline mermaid block in markdown to images
+- add link to the new generated images
+
+- pro
+-- edit mermaid direct in markdown file
+-- publish the file direct on git*
+
+- contra
+-- one step more in your pipeline
+
 
 ```bash
 # install yarn

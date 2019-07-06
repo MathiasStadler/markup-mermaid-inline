@@ -38,7 +38,11 @@ alias bashcov="~/.gem/ruby/2.6.0/bin/bashcov"
 # run test under coverage
 bashcov --skip-uncovered test_bashcov.sh
 
+# show output in chrome
+chromium ./coverage/index.html
 
+# reset coverage statistic
+rm -rf coverage
 
 ```
 

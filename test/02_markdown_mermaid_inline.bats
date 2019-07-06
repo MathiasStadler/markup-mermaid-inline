@@ -9,7 +9,7 @@ fixtures bats
 
 setup() {
     
-    echo "# --- TEST NAME IS $(basename ${BATS_TEST_FILENAME})" >&3
+    echo "# --- TEST FILE IS $(basename ${BATS_TEST_FILENAME})" >&3
     
 }
 

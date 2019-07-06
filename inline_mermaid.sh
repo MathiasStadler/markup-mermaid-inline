@@ -261,7 +261,7 @@ check_mermaid_filename() {
     if [[ "${MERMAID_FILENAME[*]}" =~ $1 ]]; then
         error "flowchart name  $1 contain in array, please used uniq filename"
         return_value=1
-        # TODO move error exit outsite the function
+        # TODO move error exit outside the function
         # TODO no exit inside function
         exit 1
     else

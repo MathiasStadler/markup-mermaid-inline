@@ -5,12 +5,17 @@
 - convert inline mermaid block in markdown file to png and and add link to the new generated images
 
 ```bash
+# install yarn
+sudo pacman -Syy yarn
 yarn install
+
+# install mermaid
 yarn add mermaid.cli
+
+# run init sample
 ./inline_mermaid.sh -f --input README.md
 
 # read messages for find output :)
-
 ```
 
 ## run test
@@ -46,27 +51,14 @@ rm -rf coverage
 
 ```
 
-
 ## sources
 
 ```txt sources
 # from here
 https://github.com/mermaidjs/mermaid.cli
 https://github.com/bats-core/bats-core
+https://github.com/infertux/bashcov
 
-```
-
-## install yarn
-
-```bash install_yarn
-sudo pacman -Syy yarn
-```
-
-## install mermaid cli
-
-```bash install
-# install local
-yarn add mermaid.cli
 ```
 
 ## add node_modules to .gitignore
